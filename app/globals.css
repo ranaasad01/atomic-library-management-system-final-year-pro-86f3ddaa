@@ -22,12 +22,12 @@
   --shadow-card: 0 1px 4px 0 rgba(30,58,95,0.08), 0 4px 16px 0 rgba(30,58,95,0.06);
   --shadow-elevated: 0 4px 12px 0 rgba(30,58,95,0.12), 0 8px 32px 0 rgba(30,58,95,0.10);
   --radius: 6px;
-    --brand-border: 240 10% 3.9%;
-    --brand-navy-light: 240 10% 3.9%;
-    --brand-navy: 240 10% 3.9%;
-    --brand-gold: 240 10% 3.9%;
-    --brand-muted: 240 10% 3.9%;
-    --brand-primary: 240 10% 3.9%;
+  --brand-border: 240 10% 3.9%;
+  --brand-navy-light: 240 10% 3.9%;
+  --brand-navy: 240 10% 3.9%;
+  --brand-gold: 240 10% 3.9%;
+  --brand-muted: 240 10% 3.9%;
+  --brand-primary: 240 10% 3.9%;
 }
 
 * {
@@ -40,15 +40,28 @@ html {
 
 body {
   background-color: var(--background);
-  color: var(--foreground);
+  color: #0f1f33 !important;
   font-family: var(--font-inter), sans-serif;
   line-height: 1.6;
+}
+
+p, span, li, td, th, label, input, select, textarea {
+  color: inherit;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-poppins), sans-serif;
   line-height: 1.25;
   font-weight: 600;
+  color: inherit;
+}
+
+section, article, main {
+  color: var(--foreground);
+}
+
+.text-default {
+  color: #0f1f33;
 }
 
 .font-display {
@@ -204,9 +217,29 @@ tr:hover td {
 }
 
 @layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: var(--border);
+    border-radius: 3px;
+  }
+
   .text-balance {
     text-wrap: balance;
   }
+
   .text-pretty {
     text-wrap: pretty;
   }
