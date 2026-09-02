@@ -1,0 +1,208 @@
+{
+  "nav": {
+    "dashboard": "Panel de Control",
+    "books": "Libros",
+    "transactions": "Transacciones",
+    "fines": "Multas",
+    "admin": "Panel de Administración",
+    "adminBooks": "Gestionar Libros",
+    "adminUsers": "Usuarios",
+    "adminFines": "Multas de Administración",
+    "login": "Iniciar Sesión"
+  },
+  "footer": {
+    "memberPortal": "Portal de Miembros",
+    "adminPanel": "Panel de Administración",
+    "contact": "Contacto",
+    "copyright": "© 2025 Sistema de Gestión de Biblioteca NCBA&E. Todos los derechos reservados.",
+    "fyp": "Proyecto FYP — Departamento de Ciencias de la Computación NCBA&E"
+  },
+  "catalogue": {
+    "body": "Explora miles de libros en múltiples categorías. Busca por título, autor o ISBN para encontrar exactamente lo que necesitas.",
+    "cta": "Comenzar a Explorar",
+    "eyebrow": "Catálogo Digital",
+    "heading": "Descubre Tu Próxima Lectura",
+    "viewAll": "Ver Todos los Libros"
+  },
+  "cta": {
+    "admin": {
+      "body": "Gestiona el inventario, realiza seguimiento de préstamos, procesa devoluciones y genera reportes desde un único panel.",
+      "cta": "Acceder al Panel de Administración",
+      "f1": "Inventario en Tiempo Real",
+      "f2": "Gestión de Miembros",
+      "f3": "Análisis e Informes",
+      "title": "Para Bibliotecarios"
+    },
+    "eyebrow": "Comenzar",
+    "heading": "Elige Tu Rol",
+    "member": {
+      "body": "Toma prestados libros, renueva préstamos, realiza seguimiento de fechas de vencimiento y gestiona tu lista de lectura fácilmente.",
+      "cta": "Únete como Miembro",
+      "f1": "Préstamo Rápido",
+      "f2": "Renovación de Préstamos",
+      "f3": "Alertas de Fecha de Vencimiento",
+      "title": "Para Miembros"
+    },
+    "strip": {
+      "fine": "Cálculo Automático de Multas",
+      "jwt": "Autenticación JWT Segura",
+      "limit": "Límites de Préstamo Inteligentes",
+      "loan": "Períodos de Préstamo Flexibles"
+    },
+    "subheading": "Diseñado para bibliotecas modernas y sus usuarios."
+  },
+  "features": {
+    "eyebrow": "Herramientas Poderosas",
+    "heading": "Todo Lo Que Necesitas",
+    "subheading": "Una solución completa para operaciones eficientes de bibliotecas."
+  },
+  "hero": {
+    "badge": {
+      "realtime": "Actualizaciones en Tiempo Real",
+      "roles": "Acceso Basado en Roles",
+      "secure": "Seguro y Confiable"
+    },
+    "card": {
+      "activeLoans": "Préstamos Activos"
+    },
+    "cta": {
+      "primary": "Comenzar Gratis",
+      "secondary": "Ver Demo"
+    },
+    "eyebrow": "Sistema de Gestión de Bibliotecas",
+    "headline1": "Optimiza Tu Biblioteca",
+    "headline2": "Operaciones",
+    "headline3": "Gestiona libros, miembros y préstamos fácilmente con nuestra plataforma moderna basada en MERN.",
+    "minicard": {
+      "booksIssued": "Libros Prestados",
+      "finesCollected": "Multas Recaudadas"
+    },
+    "subhead": "La forma inteligente de administrar tu biblioteca. Reduce el trabajo manual, mejora la experiencia de los miembros y obtén información útil."
+  },
+  "howItWorks": {
+    "eyebrow": "Proceso Simple",
+    "heading": "Cómo Funciona",
+    "subheading": "Comienza en minutos."
+  },
+  "testimonials": {
+    "eyebrow": "Historias de Éxito",
+    "heading": "Confiado por Bibliotecas"
+  },
+  "header": [
+    "LMS — NCBA&E · Member Portal",
+    "Search Books",
+    "My Transactions",
+    "My Fines",
+    "User menu: profile name, role badge (Member), and Sign Out"
+  ],
+  "welcome-banner": [
+    "Member since: September 2023",
+    "Membership No.: LIB-2023-0047",
+    "Books currently issued: 2",
+    "Pending fines: Rs. 0",
+    "Account status: Active"
+  ],
+  "issued-books": [
+    "Introduction to Algorithms — Thomas H. Cormen | Issued: 10 Jan 2025 | Due: 24 Jan 2025 | Status: Due in 4 days | Action: Initiate Return",
+    "Database System Concepts — Abraham Silberschatz | Issued: 05 Jan 2025 | Due: 19 Jan 2025 | Status: Overdue by 1 day | Fine accruing: Rs. 5/day | Action: Initiate Return",
+    "No more books issued — browse the catalogue to find your next read."
+  ],
+  "quick-actions": [
+    "Search Books — Find and browse the full library catalogue by title, author, or genre",
+    "View Transactions — See your complete issue and return history, and track active borrowings",
+    "Check My Fines — Review outstanding fines and view your payment history",
+    "Request a Book — Can't find what you need? Submit a book request to the librarian"
+  ],
+  "activity-summary": [
+    "Total Books Issued (All Time): 14 — across all genres since membership activation",
+    "Currently Borrowed: 2 — out of a maximum 3-book borrowing limit",
+    "Overdue Books: 1 — 'Database System Concepts' is 1 day past its due date",
+    "Outstanding Fines: Rs. 5 — accruing at Rs. 5 per overdue day, capped at 30 days",
+    "Books Returned On Time (Last 30 days): 3 — great track record!",
+    "Last Library Visit: 10 January 2025"
+  ],
+  "search-filters": [
+    "Search by Title — type any part of the book title to find an exact or partial match across the full catalogue",
+    "Search by Author — enter an author's first or last name to list all their works held in the library",
+    "Filter by Genre — choose from Fiction, Non-Fiction, Science & Technology, History, Business, Law, Engineering, or Islamic Studies",
+    "Filter by Availability — toggle 'Available Now' to show only books with at least one copy currently on the shelf",
+    "Filter by Publication Year — set a year range to browse classic texts or the latest editions",
+    "Filter by Shelf Location — narrow results to a specific section (e.g. A1–A5, B1–B3) to locate books physically faster",
+    "Sort Results — order by Title (A–Z), Author (A–Z), Newest Additions, or Most Borrowed"
+  ],
+  "book-grid": [
+    "Introduction to Algorithms — Thomas H. Cormen · Genre: Computer Science · 3 of 5 copies available · Shelf: C2 · Request Issue",
+    "Clean Code: A Handbook of Agile Software Craftsmanship — Robert C. Martin · Genre: Software Engineering · 1 of 3 copies available · Shelf: C3 · Request Issue",
+    "Database System Concepts — Abraham Silberschatz · Genre: Computer Science · 2 of 4 copies available · Shelf: C1 · Request Issue",
+    "The Pragmatic Programmer — David Thomas & Andrew Hunt · Genre: Software Engineering · 0 of 2 copies available · Shelf: C3 · Currently Unavailable",
+    "Principles of Economics — N. Gregory Mankiw · Genre: Economics · 4 of 6 copies available · Shelf: E1 · Request Issue",
+    "Business Law Today — Roger LeRoy Miller · Genre: Law & Business · 2 of 3 copies available · Shelf: L2 · Request Issue",
+    "Artificial Intelligence: A Modern Approach — Stuart Russell & Peter Norvig · Genre: Computer Science · 1 of 2 copies available · Shelf: C4 · Request Issue",
+    "Engineering Mathematics — K.A. Stroud · Genre: Engineering · 3 of 5 copies available · Shelf: M1 · Request Issue",
+    "The Lean Startup — Eric Ries · Genre: Business & Entrepreneurship · 2 of 2 copies available · Shelf: B2 · Request Issue",
+    "Operating System Concepts — Abraham Silberschatz & Greg Gagne · Genre: Computer Science · 0 of 3 copies available · Shelf: C2 · Currently Unavailable",
+    "Organizational Behavior — Stephen P. Robbins · Genre: Management · 5 of 5 copies available · Shelf: B1 · Request Issue",
+    "Computer Networks — Andrew S. Tanenbaum · Genre: Networking · 2 of 4 copies available · Shelf: C5 · Request Issue"
+  ],
+  "pagination": [
+    "Previous page — navigate to the preceding set of results",
+    "Page 1 of 29 — current position in the full result set",
+    "Next page — navigate to the following set of results",
+    "Results per page — choose 12, 24, or 48 books per page",
+    "Jump to page — enter a specific page number to navigate directly"
+  ],
+  "transaction-tabs": [
+    "Active Borrowings — currently issued books with due dates and one-click return",
+    "History — full chronological log of all past issue and return transactions",
+    "Requests — books you have queued for borrowing when a copy becomes available"
+  ],
+  "active-borrowings": [
+    "Book Title — full title and author of the issued book",
+    "Issue Date — the date the book was checked out from the library",
+    "Due Date — the date by which the book must be returned to avoid a fine",
+    "Status — colour-coded badge: On Time (green), Due Soon (amber), Overdue (red)",
+    "Fine Accrued — running fine total in Rs. for overdue items, updated daily at Rs. 5/day",
+    "Return — action button to mark the book as returned and clear it from active borrowings"
+  ],
+  "history-log": [
+    "Transaction ID — unique reference number for each issue/return event",
+    "Book Title & Author — the title and author of the borrowed book",
+    "Issue Date — date the book was officially issued to your account",
+    "Return Date — date the book was returned; shown as '—' for active loans",
+    "Duration — number of days the book was held, calculated automatically",
+    "Fine Charged — total fine levied for the transaction (Rs. 0.00 if returned on time)",
+    "Status — Returned (green), Active (blue), or Overdue (red) badge"
+  ],
+  "request-section": [
+    "Search by title or ISBN to find the book you want to request",
+    "View current availability — see total copies and how many are currently on loan",
+    "Check your queue position — know exactly where you stand in the waiting list",
+    "Email notification — receive an alert at your registered address when your hold is ready",
+    "Hold window — you have 48 hours to collect the book once your request is fulfilled before it passes to the next member",
+    "Cancel anytime — remove a pending request from your queue if your plans change"
+  ],
+  "fine-summary": [
+    "Total Outstanding — Rs. 75.00 across 3 overdue transactions",
+    "Pending Fines — 3 fines awaiting payment",
+    "Last Payment — Rs. 30.00 paid on 12 Jun 2025 for 'Introduction to Algorithms'",
+    "Fine Rate — Rs. 5.00 per day after due date (max cap: 150 days)",
+    "Account Status — Restricted: new issues paused until outstanding balance is cleared",
+    "Waiver Requests — 1 waiver request submitted, pending admin review"
+  ],
+  "outstanding-fines": [
+    "Introduction to Data Structures — Author: Mark Allen Weiss | Due: 01 Jun 2025 | Overdue: 18 days | Fine: Rs. 90.00 | Status: Unpaid",
+    "Operating System Concepts (10th Ed.) — Author: Abraham Silberschatz | Due: 05 Jun 2025 | Overdue: 14 days | Fine: Rs. 70.00 | Status: Unpaid",
+    "Database System Concepts — Author: Henry F. Korth | Due: 10 Jun 2025 | Overdue: 9 days | Fine: Rs. 45.00 | Status: Unpaid",
+    "Fine calculation: Overdue Days × Rs. 5.00 per day — accrues daily until book is returned or fine is waived by admin",
+    "Returning the book does not automatically clear the fine — payment must be processed separately at the library desk or via this portal",
+    "Disputed fines can be flagged for admin review — use the 'Request Waiver' option on any fine row"
+  ],
+  "payment-history": [
+    "12 Jun 2025 — 'Introduction to Algorithms' (3rd Ed.) | Overdue: 6 days | Amount Paid: Rs. 30.00 | Method: Cash | Processed by: Admin",
+    "28 May 2025 — 'Computer Networks' by Andrew Tanenbaum | Overdue: 4 days | Amount Paid: Rs. 20.00 | Method: Cash | Processed by: Admin",
+    "10 Apr 2025 — 'Artificial Intelligence: A Modern Approach' | Overdue: 2 days | Amount Paid: Rs. 10.00 | Method: Cash | Waived: Partial (Rs. 5.00 waived by Admin)",
+    "15 Mar 2025 — 'Discrete Mathematics and Its Applications' | Overdue: 8 days | Amount Paid: Rs. 40.00 | Method: Cash | Processed by: Admin",
+    "02 Feb 2025 — 'Software Engineering' by Ian Sommerville | Overdue: 3 days | Amount Paid: Rs. 15.00 | Method: Cash | Processed by: Admin",
+    "Total Paid to Date — Rs. 115.00 across 5 settled transactions since account creation"
+  ]
+}
